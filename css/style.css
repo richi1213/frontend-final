@@ -2,8 +2,18 @@ body {
   font-family: "ALK Life", sans-serif;
   color: #000000;
   background-color: #ffff;
+  cursor: url(../cursors/mountain.svg), default;
 }
 
+button:hover,
+button:focus {
+  cursor: url(../cursors/mountain2.svg), default;
+}
+
+a:hover,
+a:focus {
+  cursor: url(../cursors/spruce.svg), default;
+}
 /* font */
 @font-face {
   font-family: "ALK Life";
@@ -711,6 +721,7 @@ a:focus {
 /* info section */
 .info_section {
   background-color: #272727;
+  cursor: url(../cursors/mountain2.svg), default;
 }
 
 .links_container {
